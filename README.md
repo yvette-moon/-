@@ -1,13 +1,43 @@
 # 挂号叫诊-回诊系统
-  该系统一共有两个GUI界面，一个是医生界面，一个是用户界面
+## 简介
 
-  医生界面：
+ **1.** 该系统一共有两个GUI界面，一个是医生界面，一个是用户界面
+
+  **医生界面：**
   
   医生输入自己姓名后可以查看目前病人，进行叫号
 
-  用户界面：
+  **用户界面：**
 
-  输入个人信息后挂诊回诊，
+  输入个人信息后挂诊回诊
+  
+  **2.** 数据库
+
+  建立了一个queue的队列表，虽然写了patient表但是没有用
+
+  queue里面有
+  
+  queue_id
+  
+patient_name
+
+id_number
+
+gender
+
+age
+
+birth_date
+
+ethnicity
+
+admission_id
+
+phone
+
+doctor_name
+
+patient_id
 
   ## 后续课设改进
 
