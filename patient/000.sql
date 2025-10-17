@@ -1,0 +1,7 @@
+ALTER TABLE queue_info
+ADD COLUMN gender VARCHAR(10),
+ADD COLUMN age INT,
+ADD COLUMN birth_date DATE,
+ADD COLUMN ethnicity VARCHAR(20),
+ADD COLUMN admission_id VARCHAR(20),
+ADD COLUMN phone VARCHAR(20);

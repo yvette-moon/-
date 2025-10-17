@@ -1,0 +1,1 @@
+alter table queue_info change patient_id patient_name varchar(50);
