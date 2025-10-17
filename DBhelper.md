@@ -166,7 +166,7 @@ private static final String URL = "jdbc:mysql://localhost:3306/hospital?useSSL=f
             return false;
         }
     }
-``
+```
 1.定义一个 SQL语句字符串
 
 tring sql = "INSERT INTO queue_info (patient_id, queue_id,patient_name, gender, age, birth_date, ethnicity, id_number, admission_id, phone, doctor_name) "
